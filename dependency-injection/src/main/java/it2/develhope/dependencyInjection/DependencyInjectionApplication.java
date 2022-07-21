@@ -32,7 +32,7 @@ Dependency Injection
 
  */
 
-package co.develhope.dependencyinjection;
+package it2.develhope.dependencyInjection;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

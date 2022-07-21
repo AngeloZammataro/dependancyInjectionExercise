@@ -1,6 +1,6 @@
-package co.develhope.dependencyinjection.controllers;
+package it2.develhope.dependencyInjection.controllers;
 
-import co.develhope.dependencyinjection.services.MyService;
+import it2.develhope.dependencyInjection.services.MyService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

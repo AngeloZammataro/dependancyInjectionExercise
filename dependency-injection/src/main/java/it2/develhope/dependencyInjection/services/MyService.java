@@ -1,6 +1,6 @@
-package co.develhope.dependencyinjection.services;
+package it2.develhope.dependencyInjection.services;
 
-import co.develhope.dependencyinjection.components.MyComponent;
+import it2.develhope.dependencyInjection.components.MyComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +22,7 @@ public class MyService {//define a service called MyService
     //a method getName() that calls and returns getMyComponentName()
     public String getName(){
         System.out.println("MyService.getName() has been called");
-        return myComponent.getMyComponentName();
+        return myComponent.getMyComponentImmutableName();
     }
 
 }

@@ -1,4 +1,4 @@
-package co.develhope.dependencyinjection;
+package it2.develhope.dependencyInjection;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
