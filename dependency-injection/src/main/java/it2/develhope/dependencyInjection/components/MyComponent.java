@@ -17,7 +17,7 @@ public class MyComponent {      //define a component called MyComponent
     //a method getMyComponentName() that returns the value of myComponentImmutableName
     public String getMyComponentImmutableName(){
         System.out.println("MyComponent.getMyComponentName() has been called");
-        return myComponentImmutableName; //or myComponentName???????????????????
+        return myComponentImmutableName; //or myComponentName?
     }
 
 }
